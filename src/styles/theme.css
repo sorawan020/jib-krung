@@ -1,0 +1,168 @@
+/* src/styles/theme.css
+   ธีม จิบกรุง (Jib Krung)
+   แนวคิด: เขียวหมึกเข้มแบบกระเบื้องหลังคาวัด (pine) + ทองดาวเรือง (marigold)
+   แทนโทนครีม-ส้มอิฐทั่วไปที่ใช้กันจนจำเจ
+*/
+:root {
+  --color-bg: #f5f3ec;           /* พื้นหลังกระดาษอุ่น */
+  --color-bg-hero: #eaf0ee;      /* พื้นหลัง hero โทนเขียวอ่อน */
+  --color-bg-card: #ffffff;
+  --color-bg-thumb: #eaf0ee;
+
+  --color-pine: #17332e;         /* เขียวหมึกเข้ม - สีแบรนด์หลัก ปุ่ม/นำทาง */
+  --color-pine-soft: #274c45;
+
+  --color-accent: #e7a23a;       /* ทองดาวเรือง - ไอคอนเน้น/โลโก้ */
+  --color-accent-dark: #8a5a1e;  /* ทองเข้ม - ใช้บนพื้นอ่อน (ป้ายแนะนำ) */
+
+  --color-primary-btn: var(--color-pine);
+  --color-primary-btn-text: #ffffff;
+
+  --color-text-primary: #1c1b17;
+  --color-text-secondary: #5b564a;
+  --color-text-muted: #766f5f;
+
+  --color-border: #e3ddce;
+  --color-danger: #b03a2e;       /* แดงอิฐ - หัวใจ/ข้อผิดพลาด */
+
+  /* สีประจำกลุ่มย่าน ดึงจากโลโก้: ฟ้า/เขียว/ทอง/ส้มแดง (ทุกคู่ผ่าน contrast 4.5:1) */
+  --zone-central-bg: #ddebfa;  --zone-central-fg: #1d5a96;
+  --zone-north-bg:   #ddf0e2;  --zone-north-fg:   #1d6b3c;
+  --zone-east-bg:    #fcebc2;  --zone-east-fg:    #7a4f18;
+  --zone-west-bg:    #fbddd5;  --zone-west-fg:    #a33f2b;
+
+  --radius-card: 16px;
+  --radius-control: 10px;
+
+  --font-sans: "IBM Plex Sans Thai", "Noto Sans Thai", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-text-primary);
+  background: var(--color-bg);
+}
+
+button,
+input,
+select {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* ---------- ปฏิสัมพันธ์ร่วม ---------- */
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+.card-hover {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.card-hover:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(23, 51, 46, 0.12);
+}
+
+.btn-primary {
+  background: var(--color-pine);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-control);
+  font-weight: 600;
+  transition: background 0.15s ease;
+}
+.btn-primary:hover {
+  background: var(--color-pine-soft);
+}
+
+.btn-accent {
+  background: var(--color-accent);
+  color: var(--color-pine);
+  border: none;
+  border-radius: var(--radius-control);
+  font-weight: 700;
+  transition: filter 0.15s ease;
+}
+.btn-accent:hover {
+  filter: brightness(1.07);
+}
+
+.nav-link {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  padding: 4px 0;
+  border-bottom: 2px solid transparent;
+}
+.nav-link:hover {
+  color: var(--color-pine);
+}
+.nav-link.active {
+  color: var(--color-pine);
+  font-weight: 600;
+  border-bottom-color: var(--color-accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-hover,
+  .btn-primary,
+  .btn-accent {
+    transition: none;
+  }
+  .card-hover:hover {
+    transform: none;
+  }
+}
+
+/* ---------- เลย์เอาต์ที่ปรับตามหน้าจอ (มือถือ 2 คอลัมน์ → เดสก์ท็อป 4 คอลัมน์) ---------- */
+.card-grid,
+.zone-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+@media (min-width: 720px) {
+  .card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .zone-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+@media (min-width: 1000px) {
+  .card-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+.hero-grid {
+  display: grid;
+  gap: 32px;
+  align-items: center;
+  grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 800px) {
+  .hero-grid { grid-template-columns: minmax(0, 1fr) auto; }
+}
+
+.detail-layout,
+.list-layout {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: minmax(0, 1fr);
+}
+@media (min-width: 900px) {
+  .detail-layout { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); }
+}
+@media (min-width: 800px) {
+  .list-layout { grid-template-columns: 220px minmax(0, 1fr); }
+}
+
+.page-pad {
+  padding: 20px;
+}
+@media (min-width: 720px) {
+  .page-pad { padding: 24px; }
+}

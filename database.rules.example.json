@@ -1,0 +1,14 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "zone_groups": { ".read": true },
+    "cafes": { ".read": true },
+    "favorites": {
+      "$deviceId": {
+        ".read": true,
+        ".write": true
+      }
+    }
+  }
+}

@@ -1,0 +1,841 @@
+{
+  "zone_groups": {
+    "zone_group_001": {
+      "name_th": "ใจกลางเมือง",
+      "name_en": "Central Bangkok",
+      "description": "ย่านศูนย์กลางธุรกิจและแหล่งช้อปปิ้ง เช่น สีลม สาทร ปทุมวัน เพลินจิต",
+      "zones": [
+        "PathumWan",
+        "Ploenchit",
+        "Ratchathewi",
+        "Silom",
+        "Samphanthawong",
+        "Nanglinchee"
+      ]
+    },
+    "zone_group_002": {
+      "name_th": "โซนเหนือ",
+      "name_en": "Northern Bangkok",
+      "description": "ย่านที่พักอาศัยและคาเฟ่ยอดนิยมทางฝั่งเหนือ เช่น อารีย์ พหลโยธิน สะพานควาย รามคำแหง",
+      "zones": [
+        "Ari",
+        "Phayathai",
+        "Phahonyothin",
+        "Vibhavadi",
+        "Kaset-Nawamin",
+        "BangKapi",
+        "Ramkhamhaeng"
+      ]
+    },
+    "zone_group_003": {
+      "name_th": "โซนตะวันออก",
+      "name_en": "Eastern Bangkok",
+      "description": "ย่านสุขุมวิทและพื้นที่ต่อขยายทางตะวันออกของเมือง",
+      "zones": [
+        "Sukhumvit",
+        "Ekkamai",
+        "PhraKhanong",
+        "Bangchak",
+        "Suan Luang",
+        "Pridi"
+      ]
+    },
+    "zone_group_004": {
+      "name_th": "ฝั่งธนบุรีและตะวันตก",
+      "name_en": "Thonburi & Western Bangkok",
+      "description": "ย่านฝั่งธนบุรี นนทบุรี และตะวันตกของกรุงเทพฯ ที่มักมีคาเฟ่ริมน้ำและพื้นที่กว้าง",
+      "zones": [
+        "KhlongSan",
+        "Charoen Krung",
+        "Taling Chan",
+        "ThawiWatthana",
+        "Ratchaphruek",
+        "BangKruai",
+        "Bang Phueng",
+        "Bang Bon",
+        "Nonthaburi"
+      ]
+    }
+  },
+  "cafes": {
+    "cafe_001": {
+      "name_th": "แฟคทอรี่ คาเฟ่",
+      "name_en": "Factory Coffee",
+      "zone": "Phayathai",
+      "zone_group_id": "zone_group_002",
+      "price_range": "$$",
+      "description": "ร้านกาแฟบรรยากาศดิบเท่ โดดเด่นด้วยเมนู Signature และเมล็ดกาแฟคั่วพิเศษ",
+      "latitude": 13.75432,
+      "longitude": 100.53489,
+      "opening_days": "Everyday",
+      "opening_hours": "08:00 - 18:00",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://www.facebook.com/factorybkk",
+      "image_thumbnail": "cafe_001_thumb.webp",
+      "image_detail": "cafe_001_detail.webp",
+      "image_gallery": [
+        "cafe_001_gallery_01.webp",
+        "cafe_001_gallery_02.webp",
+        "cafe_001_gallery_03.webp"
+      ],
+      "source_url": "https://www.facebook.com/factorybkk",
+      "is_recommended": false
+    },
+    "cafe_002": {
+      "name_th": "นานา คอฟฟี่ โรสเตอร์ส",
+      "name_en": "Nana Coffee Roasters Ari",
+      "zone": "Ari",
+      "zone_group_id": "zone_group_002",
+      "price_range": "$$$",
+      "description": "สาขาอารีย์ตกแต่งสไตล์สวนธรรมชาติ ร่มรื่น พร้อมเมล็ดกาแฟให้เลือกมากมาย",
+      "latitude": 13.77951,
+      "longitude": 100.54213,
+      "opening_days": "Mon - Fri",
+      "opening_hours": "07:00 - 18:00",
+      "facilities": [
+        "Wi-Fi",
+        "Parking",
+        "Garden"
+      ],
+      "social_url": "https://www.facebook.com/nanacoffeeroastersari",
+      "image_thumbnail": "cafe_002_thumb.webp",
+      "image_detail": "cafe_002_detail.webp",
+      "image_gallery": [
+        "cafe_002_gallery_01.webp",
+        "cafe_002_gallery_02.webp",
+        "cafe_002_gallery_03.webp"
+      ],
+      "source_url": "https://www.facebook.com/nanacoffeeroastersari",
+      "is_recommended": true
+    },
+    "cafe_003": {
+      "name_th": "คอฟแอนด์คาว",
+      "name_en": "COF AND COW",
+      "zone": "Nanglinchee",
+      "zone_group_id": "zone_group_001",
+      "price_range": "$$$",
+      "description": "ร้้านบรรยากาศดี แสงสวย พนักงานน่ารัก",
+      "latitude": 14.066883,
+      "longitude": 100.60842,
+      "opening_days": "Mon - Sun",
+      "opening_hours": "08:00 - 16:30",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://l.facebook.com/l.php?u=",
+      "image_thumbnail": "cafe_003_thumb.webp",
+      "image_detail": "cafe_003_detail.webp",
+      "image_gallery": [
+        "cafe_003_gallery_01.webp",
+        "cafe_003_gallery_02.webp",
+        "cafe_003_gallery_03.webp"
+      ],
+      "source_url": "https://l.facebook.com/l.php?u=https%3A%2F%2Finstagram.com%2Fcofandcow&h=AUDkbR3JG9l-HNt9WdiZMmwve7w2SSvKJZzHZ17_RSQ5YQX0p1G6RBcMcHQTfsKKL7l5QZWuGEEhBvW0fBaYAIVWSm2bkF26CrdmMAcrIAlewaRJ_6EXa9hV2d_4_PkaXhYMzU3UCsLRePvok2j7cs4ie8UjhBslwbGEHA",
+      "is_recommended": true
+    },
+    "cafe_004": {
+      "name_th": "คราฟท์กาแฟ",
+      "name_en": "CRAFT",
+      "zone": "PathumWan",
+      "zone_group_id": "zone_group_001",
+      "price_range": "$$",
+      "description": "ความร่มรื่นของพื้นที่สีเขียวที่โอบล้อมทั้งตัวร้าน ราวกับเป็นโอเอซิสเล็ก ๆ ใจกลางย่านหลังสวนก็พร้อมต้อนรับทุกคน และด้วยการออกแบบที่เชื่อมต่อระหว่างโซน Indoor และ Outdoor อย่างลงตัว เปิดรับแสงธรรมชาติและลมเย็นตลอดวัน",
+      "latitude": 13.737629,
+      "longitude": 100.543759,
+      "opening_days": "Everyday",
+      "opening_hours": "07:00 - 20:00",
+      "facilities": [
+        "Parking"
+      ],
+      "social_url": "kimptonmaalaibangkok.com/bangkok-restaurants/craft",
+      "image_thumbnail": "cafe_004_thumb.webp",
+      "image_detail": "cafe_004_detail.webp",
+      "image_gallery": [
+        "cafe_004_gallery_01.webp",
+        "cafe_004_gallery_02.webp",
+        "cafe_004_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/craft?_st=cD0wO2I9NTk0ODIxO2FkPWZhbHNlO3Q9MTc4NzQwOTA3NDQyODtyaT0xWDdiY0VYNlVCbkNCNWZhcjV0Q3QzUWV3QkdEMlQ7aT0xWDcxNVlJZ3prRWVub2VxUmFxb1dzSENZRm50NEY7d3JlZj1zcjs%3D",
+      "is_recommended": false
+    },
+    "cafe_005": {
+      "name_th": "ซาร์นีส์ แอนด์ เฟรนด์ส",
+      "name_en": "SARNIES AND FRIND",
+      "zone": "Charoen Krung",
+      "zone_group_id": "zone_group_004",
+      "price_range": "$$$",
+      "description": "คุณภาพอาหารดี บรรยากาศดี เหมาะกับนั่งทำงาน",
+      "latitude": 13.7344,
+      "longitude": 100.5147,
+      "opening_days": "Tue - Sun",
+      "opening_hours": "08:00 - 20:00",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://sarnies.com/about-the-group",
+      "image_thumbnail": "cafe_005_thumb.webp",
+      "image_detail": "cafe_005_detail.webp",
+      "image_gallery": [
+        "cafe_005_gallery_01.webp",
+        "cafe_005_gallery_02.webp",
+        "cafe_005_gallery_03.webp"
+      ],
+      "source_url": "https://sarnies.com/about-the-group",
+      "is_recommended": true
+    },
+    "cafe_006": {
+      "name_th": "ปิคโคโล วิโคโล",
+      "name_en": "Piccolo Vicolo",
+      "zone": "Ratchathewi",
+      "zone_group_id": "zone_group_001",
+      "price_range": "$$$",
+      "description": "บรรยากาศผ่อนคลาย กาแฟอร่อย",
+      "latitude": 13.751346,
+      "longitude": 100.526389,
+      "opening_days": "Mon - Sun",
+      "opening_hours": "09:00 - 17:00",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://www.facebook.com/Piccolo-vicolo-cafe-107153068438516",
+      "image_thumbnail": "cafe_006_thumb.webp",
+      "image_detail": "cafe_006_detail.webp",
+      "image_gallery": [
+        "cafe_006_gallery_01.webp",
+        "cafe_006_gallery_02.webp",
+        "cafe_006_gallery_03.webp"
+      ],
+      "source_url": "https://www.facebook.com/Piccolo-vicolo-cafe-107153068438516",
+      "is_recommended": true
+    },
+    "cafe_007": {
+      "name_th": "ชาเดย์เธม",
+      "name_en": "DAYTHEM",
+      "zone": "Samphanthawong",
+      "zone_group_id": "zone_group_001",
+      "price_range": "$$$",
+      "description": "บรรยากาศเงียบสงบ พนักงานน่ารัก",
+      "latitude": 13.731679,
+      "longitude": 100.514233,
+      "opening_days": "Mon - Sun",
+      "opening_hours": "09:00 - 18:00",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fdaythem_teastudio&h=AUB1EcH_AWlAEeFLzgS3RrwzQTbdcnbq3fTMyZ0y4aKCS1-5-BySGBXldLMKYH9ZuMRoDnHGNpCm0o6K3UZFPgjzC-XRlSkwn9NJaIlbGadZpoktKXrHYzVEgCk-rST1iRBNrOBm4EzQOJfEmEIh",
+      "image_thumbnail": "cafe_007_thumb.webp",
+      "image_detail": "cafe_007_detail.webp",
+      "image_gallery": [
+        "cafe_007_gallery_01.webp",
+        "cafe_007_gallery_02.webp",
+        "cafe_007_gallery_03.webp"
+      ],
+      "source_url": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fdaythem_teastudio&h=AUB1EcH_AWlAEeFLzgS3RrwzQTbdcnbq3fTMyZ0y4aKCS1-5-BySGBXldLMKYH9ZuMRoDnHGNpCm0o6K3UZFPgjzC-XRlSkwn9NJaIlbGadZpoktKXrHYzVEgCk-rST1iRBNrOBm4EzQOJfEmEIh",
+      "is_recommended": true
+    },
+    "cafe_008": {
+      "name_th": "เบเกิลซิดนีย์ ",
+      "name_en": "Sydny",
+      "zone": "Taling Chan",
+      "zone_group_id": "zone_group_004",
+      "price_range": "$$$",
+      "description": "การตกแต่งและบรรยากาศเรียบง่าย",
+      "latitude": 13.789751,
+      "longitude": 100.427466,
+      "opening_days": "Mon - Fri ",
+      "opening_hours": "09:00 - 17:00",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://web.facebook.com/photo/?fbid=221240074267366&set=a.137326755992032",
+      "image_thumbnail": "cafe_008_thumb.webp",
+      "image_detail": "cafe_008_detail.webp",
+      "image_gallery": [
+        "cafe_008_gallery_01.webp",
+        "cafe_008_gallery_02.webp",
+        "cafe_008_gallery_03.webp"
+      ],
+      "source_url": "https://web.facebook.com/photo/?fbid=221240074267366&set=a.137326755992032",
+      "is_recommended": true
+    },
+    "cafe_009": {
+      "name_th": "อิน มาย เอเลเมนท์ คาเฟ่",
+      "name_en": "In My Element Cafe",
+      "zone": "BangKruai",
+      "zone_group_id": "zone_group_004",
+      "price_range": "$$",
+      "description": "คาเฟ่สุดเท่ ย่านราชพฤกษ์ โทนดีต่อใจมากกก! ถ่ายรูปมุมไหนก็ดีเวอร์ เป็นอีกหนึ่งจุดเช็คอินใหม่ที่สายคาเฟ่ไม่ควรพลาดค่ะ ตัวร้านว่าดีต่อใจแล้ว เมนูกาแฟก็เลิศนะ ไป Hopping ได้ชิลๆ",
+      "latitude": 13.800615,
+      "longitude": 100.452151,
+      "opening_days": "Tue - Sun",
+      "opening_hours": "09:00 - 18:00",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://www.facebook.com/inmyelementcafe , https://instagram.com/inmyelement_cafe",
+      "image_thumbnail": "cafe_009_thumb.webp",
+      "image_detail": "cafe_009_detail.webp",
+      "image_gallery": [
+        "cafe_009_gallery_01.webp",
+        "cafe_009_gallery_02.webp",
+        "cafe_009_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/1673668fU-in-my-element-cafe-%E0%B8%81%E0%B8%B2%E0%B9%81%E0%B8%9F-%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3-%E0%B9%80%E0%B8%9A%E0%B9%80%E0%B8%81%E0%B8%AD%E0%B8%A3%E0%B8%B5%E0%B9%88",
+      "is_recommended": false
+    },
+    "cafe_010": {
+      "name_th": "ฮอลิเดย์ พาสทรี",
+      "name_en": "HOLIDAY PASTRY Flagship Store",
+      "zone": "KhlongSan",
+      "zone_group_id": "zone_group_004",
+      "price_range": "$$",
+      "description": "คาเฟ่สวย ย่านคลองสาน โทนขาวครีมเหลืองน้ำตาล เป็นมู้ดที่ถูกใจสายคาเฟ่เหลือเกินค่ะ ยังไงก็ไม่ควรพลาด ฟีลโคเรีย ถ่ายรูปสวยแบบนี้ ท้องร้องขึ้นมาก็มีเมนูอาหาร",
+      "latitude": 13.724541,
+      "longitude": 100.505069,
+      "opening_days": "Everyday",
+      "opening_hours": "10:00 - 18:30",
+      "facilities": [
+        "Wi-Fi"
+      ],
+      "social_url": "https://www.facebook.com/holidaypastry-104383041289347 , https://instagram.com/holidaypastry",
+      "image_thumbnail": "cafe_010_thumb.webp",
+      "image_detail": "cafe_010_detail.webp",
+      "image_gallery": [
+        "cafe_010_gallery_01.webp",
+        "cafe_010_gallery_02.webp",
+        "cafe_010_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/745169Ev-holiday-pastry-%E0%B8%AE%E0%B8%AD%E0%B8%A5%E0%B8%B4%E0%B9%80%E0%B8%94%E0%B8%A2%E0%B9%8C-%E0%B8%9E%E0%B8%B2%E0%B8%AA%E0%B8%97%E0%B8%A3%E0%B8%B5-%E0%B9%80%E0%B8%88%E0%B8%A3%E0%B8%B4%E0%B8%8D%E0%B8%99%E0%B8%84%E0%B8%A3-charoen-nakhon",
+      "is_recommended": false
+    },
+    "cafe_011": {
+      "name_th": "กาแฟนิรนาม",
+      "name_en": "Anonymous Coffee",
+      "zone": "BangKapi",
+      "zone_group_id": "zone_group_002",
+      "price_range": "$$",
+      "description": "ร้านกาแฟแนว Specialty Coffee ที่คอกาแฟต้องชอบ บรรยากาศดี แสงสวย ถ่ายรูปปังสุดๆ เพราะตัวร้านเป็นฟีล Glass House ไม่ว่าจะถ่ายรูปมุมไหนก็สวย",
+      "latitude": 13.747651,
+      "longitude": 100.576628,
+      "opening_days": "Everyday",
+      "opening_hours": "08:30 - 17:30",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://instagram.com/anonymous.coffee.bkk",
+      "image_thumbnail": "cafe_011_thumb.webp",
+      "image_detail": "cafe_011_detail.webp",
+      "image_gallery": [
+        "cafe_011_gallery_01.webp",
+        "cafe_011_gallery_02.webp",
+        "cafe_011_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/1834217lh-anonymous?_st=cD0wO2I9MTgzNDIxNzthZD1mYWxzZTt0PTE3ODc0MDU3OTkwNDk7cmk9MVg3YmNFUVN3blR3bktwckEySFNWcXljbWFpYUNuO2k9MVg3MTVZQzNIdTRRa3dmODNBc2x0ckVQV3ZnVUNrO3dyZWY9c3I7",
+      "is_recommended": false
+    },
+    "cafe_012": {
+      "name_th": "แกลมเปอร์ คอฟฟี่",
+      "name_en": "Glamper Coffee and Bar",
+      "zone": "Bang Phueng",
+      "zone_group_id": "zone_group_004",
+      "price_range": "$$",
+      "description": "สายชิลต้องเลิฟ เพราะเค้าเป็นคาเฟ่สุดชิล ริมแม่น้ำเจ้าพระยา ในสไตล์แคมป์ปิ้ง ตั้งอยู่ย่านพระประแดง สมุทรปราการ เป็นที่ที่เรียกได้ว่ามา จ่ายแค่กาแฟหลักร้อย",
+      "latitude": 13.67313,
+      "longitude": 100.525035,
+      "opening_days": "Everyday",
+      "opening_hours": "11:00 - 23:00",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://www.facebook.com/glampercoffeeandcraftbeer , https://instagram.com/glampercoffeeandcraftbeer",
+      "image_thumbnail": "cafe_012_thumb.webp",
+      "image_detail": "cafe_012_detail.webp",
+      "image_gallery": [
+        "cafe_012_gallery_01.webp",
+        "cafe_012_gallery_02.webp",
+        "cafe_012_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/589708Cb-%E0%B9%81%E0%B8%81%E0%B8%A5%E0%B8%A1%E0%B9%80%E0%B8%9B%E0%B8%AD%E0%B8%A3%E0%B9%8C-%E0%B8%84%E0%B8%AD%E0%B8%9F%E0%B8%9F%E0%B8%B5%E0%B9%88-%E0%B9%81%E0%B8%AD%E0%B8%99%E0%B8%94%E0%B9%8C-%E0%B8%84%E0%B8%A3%E0%B8%B2%E0%B8%9F%E0%B8%97%E0%B9%8C%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%A3%E0%B9%8C?_st=cD0wO2I9NTg5NzA4O2FkPWZhbHNlO3Q9MTc4NzQwNTA0OTc5MDtyaT0xWDdiY0VPd2oxb1h0QVN6R3JWWFRRVmNzUDdXWnY7aT0xWDcxNVlBWEY1QWt0WWZDREU4TG9ZVmNidUdtTDY7d3JlZj1zcjs%3D",
+      "is_recommended": false
+    },
+    "cafe_013": {
+      "name_th": "ดาวิน คาเฟ่",
+      "name_en": "Davin Cafe",
+      "zone": "Kaset-Nawamin",
+      "zone_group_id": "zone_group_002",
+      "price_range": "$$$",
+      "description": "ความคลาสสิกของ Davin Cafe คาเฟ่และบาร์สุดเท่ในย่านเกษตร-นวมินทร์ กับดีไซน์การตกแต่งและเสน่ห์ไม่เหมือนใครในแบบ Steampunk ที่ผสมผสานสไตล์ Industrial Loft เท่ ๆ ร่วมกับประติมากรรมชื่อดังระดับโลกได้อย่างลงตัว",
+      "latitude": 13.82174,
+      "longitude": 100.62716,
+      "opening_days": "Everyday",
+      "opening_hours": "06:00 - 24:00",
+      "facilities": [
+        "Parking"
+      ],
+      "social_url": "https://www.facebook.com/davincafethailand , https://www.instagram.com/davincafethailand",
+      "image_thumbnail": "cafe_013_thumb.webp",
+      "image_detail": "cafe_013_detail.webp",
+      "image_gallery": [
+        "cafe_013_gallery_01.webp",
+        "cafe_013_gallery_02.webp",
+        "cafe_013_gallery_03.webp"
+      ],
+      "source_url": "https://www.bkkmenu.com/eat/we-recommend/davin-cafe.html",
+      "is_recommended": true
+    },
+    "cafe_014": {
+      "name_th": "โออิโคส คาเฟ่ แอนด์ เรสเตอรองต์",
+      "name_en": "OIKOS Cafe & Restaurant",
+      "zone": "Bang Bon",
+      "zone_group_id": "zone_group_004",
+      "price_range": "$$$",
+      "description": "การดีไซน์ให้เหมือน ‘บ้านพักตากอากาศ’ ในแถบยุโรปและสแกนดิเนเวียน ภายใต้คอนเซ็ปต์ ‘Japandic Style’ ที่เน้นความเรียบง่าย",
+      "latitude": 13.678403,
+      "longitude": 100.430853,
+      "opening_days": "Mon - Fri ",
+      "opening_hours": "11:00 - 20:00",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://www.facebook.com/oikos.bkk , https://www.instagram.com/oikos.bkk",
+      "image_thumbnail": "cafe_014_thumb.webp",
+      "image_detail": "cafe_014_detail.webp",
+      "image_gallery": [
+        "cafe_014_gallery_01.webp",
+        "cafe_014_gallery_02.webp",
+        "cafe_014_gallery_03.webp"
+      ],
+      "source_url": "https://www.bkkmenu.com/eat/we-recommend/oikos-cafe-and-restaurant.html",
+      "is_recommended": true
+    },
+    "cafe_015": {
+      "name_th": "กัสนะ",
+      "name_en": "KSANA",
+      "zone": "Ploenchit",
+      "zone_group_id": "zone_group_001",
+      "price_range": "$$",
+      "description": "ออกแบบเป็นพื้นที่สงบที่หลบอยู่ท่ามกลางความวุ่นวายในเมืองหลวง ทางร้านตั้งใจให้คนที่แวะเวียนเข้ามาได้เวลากับตัวเองอย่างเป็นส่วนตัว โดยมีเครื่องดื่มที่สื่อถึงความสงบอย่างมัทฉะคุณภาพพรีเมียมเกรด Ceremonial เป็นตัวเชื่อมช่วยชุบชูจิตใจของคุณ",
+      "latitude": 13.743075,
+      "longitude": 100.546502,
+      "opening_days": "Mon - Fri ",
+      "opening_hours": "08:00 - 17:30",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://www.facebook.com/ksana.bkk , https://www.instagram.com/ksana.bkk",
+      "image_thumbnail": "cafe_015_thumb.webp",
+      "image_detail": "cafe_015_detail.webp",
+      "image_gallery": [
+        "cafe_015_gallery_01.webp",
+        "cafe_015_gallery_02.webp",
+        "cafe_015_gallery_03.webp"
+      ],
+      "source_url": "https://www.bkkmenu.com/eat/we-recommend/ksana.html",
+      "is_recommended": false
+    },
+    "cafe_016": {
+      "name_th": "บอททอมเลส",
+      "name_en": "Bottomless ",
+      "zone": "Nonthaburi",
+      "zone_group_id": "zone_group_004",
+      "price_range": "$$",
+      "description": "บรรยากาศดีๆมีกาแฟดีๆให้เลือกกินเยอะเลยโดยใช้เมล็ดพันธุ์จากจังหวัดน่านรสชาติดีหอมอร่อย อ่านต่อได้ที่ https://www.wongnai.com/restaurants/bottomlessespresso?_st=cD0xO2I9MTUyMzAyO2FkPWZhbHNlO3Q9MTc4NzM4MTY4NzI4NTtyaT0xWDdiY0RkYW9MOHU4bFVGYlBGaGRsRHJnU3hXQ3U7aT0xWDcxNVhQQks2eTA4ZWFyVWUzd2d2bnRhM0I0R0o7d3JlZj1zcjs%3D&ref=ct",
+      "latitude": 13.876034,
+      "longitude": 100.495469,
+      "opening_days": "Everyday",
+      "opening_hours": "07:00 - 18:00",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://www.facebook.com/Bottomless.es , https://instagram.com/bottomless_es",
+      "image_thumbnail": "cafe_016_thumb.webp",
+      "image_detail": "cafe_016_detail.webp",
+      "image_gallery": [
+        "cafe_016_gallery_01.webp",
+        "cafe_016_gallery_02.webp",
+        "cafe_016_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/bottomlessespresso?_st=cD0xO2I9MTUyMzAyO2FkPWZhbHNlO3Q9MTc4NzM4MTY4NzI4NTtyaT0xWDdiY0RkYW9MOHU4bFVGYlBGaGRsRHJnU3hXQ3U7aT0xWDcxNVhQQks2eTA4ZWFyVWUzd2d2bnRhM0I0R0o7d3JlZj1zcjs%3D",
+      "is_recommended": false
+    },
+    "cafe_017": {
+      "name_th": "แกลอรี่ กาแฟ ดริป",
+      "name_en": "Gallery",
+      "zone": "PathumWan",
+      "zone_group_id": "zone_group_001",
+      "price_range": "$$",
+      "description": "ร้านกาแฟสุดคูลที่มีอาหารตาเป็นงานศิลปะ เหมือนนั่งกินอยู่ในแกลลอรี่ที่มีบรรยากาศดีทั้งในร้านและนอกร้าน มองออกไปแสงสวย เครื่องดื่มใช้คำว่าละเมียดละไมได้เลย อ่านต่อได้ที่ https://www.wongnai.com/restaurants/gallerycoffeedrip?ref=ct",
+      "latitude": 13.746938,
+      "longitude": 100.530384,
+      "opening_days": "Tue - Sun",
+      "opening_hours": "10:30 - 19:00",
+      "facilities": [
+        "Parking"
+      ],
+      "social_url": "http://www.facebook.com/GalleryDripCoffee",
+      "image_thumbnail": "cafe_017_thumb.webp",
+      "image_detail": "cafe_017_detail.webp",
+      "image_gallery": [
+        "cafe_017_gallery_01.webp",
+        "cafe_017_gallery_02.webp",
+        "cafe_017_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/gallerycoffeedrip",
+      "is_recommended": false
+    },
+    "cafe_018": {
+      "name_th": "ฟิลคอฟฟี่",
+      "name_en": "Phil Coffee Company",
+      "zone": "Sukhumvit",
+      "zone_group_id": "zone_group_003",
+      "price_range": "$$",
+      "description": "บรรยากาศในร้านตกแต่งแบบเรียบง่ายแต่แฝงไปด้วยความcozy ชอบplaylist selectionของร้านมาก รู้สึกว่ามาทีไร นั่งได้เรื่อยๆตลอด",
+      "latitude": 13.730304,
+      "longitude": 100.576591,
+      "opening_days": "Mon - Fri ",
+      "opening_hours": "08:00 - 17:00",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://www.facebook.com/philcoffeecompany , https://instagram.com/philkaffe",
+      "image_thumbnail": "cafe_018_thumb.webp",
+      "image_detail": "cafe_018_detail.webp",
+      "image_gallery": [
+        "cafe_018_gallery_01.webp",
+        "cafe_018_gallery_02.webp",
+        "cafe_018_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/phillcoffee?_st=cD0zO2I9MTgzOTYzO2FkPWZhbHNlO3Q9MTc4NzM4MTY4NzI5NTtyaT0xWDdiY0RkYXBFVXFRc3ljRkozc012NktnTnlwaHY7aT0xWDcxNVhQQks2eTA4ZWFyVWUzd2d2bnRhM0I0R0o7d3JlZj1zcjs%3D",
+      "is_recommended": false
+    },
+    "cafe_019": {
+      "name_th": "คาโร คอฟฟี่ โรสเตอร์ส",
+      "name_en": "Karo Coffee Roasters",
+      "zone": "Pridi",
+      "zone_group_id": "zone_group_003",
+      "price_range": "$$",
+      "description": "ร้านกาแฟสุดฮิปร้านดัง กาแฟรสชาติ​เข้มข้น มีเมนูกาแฟให้เลือกหลากหลาย และยังมีขนมปังและเค้กด้วย อ่านต่อได้ที่ https://www.wongnai.com/restaurants/378560my-karo-coffee-roasters-%E0%B8%9B%E0%B8%A3%E0%B8%B5%E0%B8%94%E0%B8%B5-pridi-banomyong?ref=ct",
+      "latitude": 13.725926,
+      "longitude": 100.599837,
+      "opening_days": "Everyday",
+      "opening_hours": "05:30 - 17:30",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://www.facebook.com/karocoffee , https://instagram.com/karocoffeeroasters",
+      "image_thumbnail": "cafe_019_thumb.webp",
+      "image_detail": "cafe_019_detail.webp",
+      "image_gallery": [
+        "cafe_019_gallery_01.webp",
+        "cafe_019_gallery_02.webp",
+        "cafe_019_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/378560my-karo-coffee-roasters-%E0%B8%9B%E0%B8%A3%E0%B8%B5%E0%B8%94%E0%B8%B5-pridi-banomyong",
+      "is_recommended": false
+    },
+    "cafe_020": {
+      "name_th": "โรงอาหาร.th",
+      "name_en": "canteen.th",
+      "zone": "PhraKhanong",
+      "zone_group_id": "zone_group_003",
+      "price_range": "$$$",
+      "description": "เป็นพื้นที่ที่รวมร้านอาหารและเครื่องดื่มเข้าด้วยกัน เป็นคาเฟ่เล็ก ๆ ร่มรื่น บรรยากาศดี ให้ความรู้สึกเหมือนมาบ้านใครสักคน อ่านต่อได้ที่ https://www.wongnai.com/restaurants/189865Uq-canteen-th-h-space?_st=cD03O2I9MTg5ODY1O2FkPWZhbHNlO3Q9MTc4NzM4OTAzOTY3ODtyaT0xWDdiY0RzVWlPa1pMTU84Zm1SQ1hrTzlqYUVvRTc7aT0xWDcxNVhlNUc2TmVUQko0ZUNwRGRlOXRPN2kwQ0c7d3JlZj1zcjs%3D&ref=ct",
+      "latitude": 13.721788,
+      "longitude": 100.578835,
+      "opening_days": "Everyday",
+      "opening_hours": "08:00 - 21:00",
+      "facilities": [
+        "Parking"
+      ],
+      "social_url": "https://www.facebook.com/Canteen.th , https://instagram.com/canteen.th",
+      "image_thumbnail": "cafe_020_thumb.webp",
+      "image_detail": "cafe_020_detail.webp",
+      "image_gallery": [
+        "cafe_020_gallery_01.webp",
+        "cafe_020_gallery_02.webp",
+        "cafe_020_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/189865Uq-canteen-th-h-space?_st=cD03O2I9MTg5ODY1O2FkPWZhbHNlO3Q9MTc4NzM4OTAzOTY3ODtyaT0xWDdiY0RzVWlPa1pMTU84Zm1SQ1hrTzlqYUVvRTc7aT0xWDcxNVhlNUc2TmVUQko0ZUNwRGRlOXRPN2kwQ0c7d3JlZj1zcjs%3D",
+      "is_recommended": true
+    },
+    "cafe_021": {
+      "name_th": "แฮนด์เมคเกอร์ คอฟฟี่",
+      "name_en": "Handmaker Coffee",
+      "zone": "Ratchaphruek",
+      "zone_group_id": "zone_group_004",
+      "price_range": "$$",
+      "description": "เป็นร้านกาแฟที่น่านั่งดีเอาใจสายคาเฟ่พอได้เป็นแบบ Glasshouse ไม่ใหญ่มากริมถนน หรือจะเป็นสายคอกาแฟนักดื่มโดยเฉพาะที่นี่ก็เหมาะมาแวะเวียนชิมกาแฟดูได้ อ่านต่อได้ที่ https://www.wongnai.com/restaurants/346224Yw-handmaker-coffee-%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9E%E0%B8%A4%E0%B8%81%E0%B8%A9%E0%B9%8C?_st=cD00O2I9MzQ2MjI0O2FkPWZhbHNlO3Q9MTc4NzM4OTI0NDA4NjtyaT0xWDdiY0RzdVhua3MzdUdTelNZdlRNTndVR0REZkE7aT0xWDcxNVhlVjRDdHU0SzQzemRsRXJ2WkdlVE5mNjg7d3JlZj1zcjs%3D&ref=ct",
+      "latitude": 13.84377,
+      "longitude": 100.46147,
+      "opening_days": "Tue - Sun",
+      "opening_hours": "09:00 - 17:00",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://www.facebook.com/handmakercoffee/ , https://instagram.com/handmakercoffee",
+      "image_thumbnail": "cafe_021_thumb.webp",
+      "image_detail": "cafe_021_detail.webp",
+      "image_gallery": [
+        "cafe_021_gallery_01.webp",
+        "cafe_021_gallery_02.webp",
+        "cafe_021_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/346224Yw-handmaker-coffee-%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9E%E0%B8%A4%E0%B8%81%E0%B8%A9%E0%B9%8C?_st=cD00O2I9MzQ2MjI0O2FkPWZhbHNlO3Q9MTc4NzM4OTI0NDA4NjtyaT0xWDdiY0RzdVhua3MzdUdTelNZdlRNTndVR0REZkE7aT0xWDcxNVhlVjRDdHU0SzQzemRsRXJ2WkdlVE5mNjg7d3JlZj1zcjs%3D",
+      "is_recommended": false
+    },
+    "cafe_022": {
+      "name_th": "พบหน้า ",
+      "name_en": "Pobnar",
+      "zone": "Silom",
+      "zone_group_id": "zone_group_001",
+      "price_range": "$",
+      "description": "ร้านกาแฟลับ (ที่ไม่ลับ) ในบ้านเล็กๆ ใจกลางสีลมโดดเด่นเรื่องเมนูกาแฟที่คั่วเมล็ดเอง รสชาติดี ราคาไม่แพง ร้านตั้งอยู่ที่ซอยคอนแวนต์ ซอยเล็กๆ  อ่านต่อได้ที่ https://www.wongnai.com/restaurants/626259Js-%E0%B8%9E%E0%B8%9A%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-%E0%B8%AA%E0%B8%B5%E0%B8%A5%E0%B8%A1-speciality-coffee?_st=cD01O2I9NjI2MjU5O2FkPWZhbHNlO3Q9MTc4NzM4OTE0MDgxOTtyaT0xWDdiY0RzaFBNQThYWVZPV29uaXVKc2lsNTQxZko7aT0xWDcxNVhlSHVsWDI3Z295S0JDaFFmMzNRSFZHZnc7d3JlZj1zcjs%3D&ref=ct",
+      "latitude": 13.726725,
+      "longitude": 100.533665,
+      "opening_days": "Everyday",
+      "opening_hours": "08:00 - 17:00",
+      "facilities": [
+        "Parking"
+      ],
+      "social_url": "https://www.facebook.com/pobnar , https://instagram.com/pobnar",
+      "image_thumbnail": "cafe_022_thumb.webp",
+      "image_detail": "cafe_022_detail.webp",
+      "image_gallery": [
+        "cafe_022_gallery_01.webp",
+        "cafe_022_gallery_02.webp",
+        "cafe_022_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/626259Js-%E0%B8%9E%E0%B8%9A%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2-%E0%B8%AA%E0%B8%B5%E0%B8%A5%E0%B8%A1-speciality-coffee?_st=cD01O2I9NjI2MjU5O2FkPWZhbHNlO3Q9MTc4NzM4OTE0MDgxOTtyaT0xWDdiY0RzaFBNQThYWVZPV29uaXVKc2lsNTQxZko7aT0xWDcxNVhlSHVsWDI3Z295S0JDaFFmMzNRSFZHZnc7d3JlZj1zcjs%3D",
+      "is_recommended": false
+    },
+    "cafe_023": {
+      "name_th": "กระทรวงการคั่ว",
+      "name_en": "Ministry of Roasters",
+      "zone": "Bangchak",
+      "zone_group_id": "zone_group_003",
+      "price_range": "$$",
+      "description": "ด้านกระทรวงการคั่วเป็นร้านกาแฟที่มีชื่อเสียงในระดับหนึ่งเลยเพราะเป็นร้านกาแฟ specialty ที่คัดสรรเมล็ดกาแฟมาจากทั่วประเทศ และอีกหลายที่จากต่างประเทศ อ่านต่อได้ที่ https://www.wongnai.com/restaurants/438547LS-ministry-of-roasters-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%A3%E0%B8%A7%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7-%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%88%E0%B8%B2%E0%B8%81-bang-chak?_st=cD03O2I9NDM4NTQ3O2FkPWZhbHNlO3Q9MTc4NzM4OTI0NDA5NTtyaT0xWDdiY0RzdVU3NHNlUFF3YjVGd0hoaGVGUEdoQ3E7aT0xWDcxNVhlVjRDdHU0SzQzemRsRXJ2WkdlVE5mNjg7d3JlZj1zcjs%3D&ref=ct",
+      "latitude": 13.684604,
+      "longitude": 100.617322,
+      "opening_days": "Everyday",
+      "opening_hours": "08:00 - 17:00",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://www.facebook.com/ministryofroasters",
+      "image_thumbnail": "cafe_023_thumb.webp",
+      "image_detail": "cafe_023_detail.webp",
+      "image_gallery": [
+        "cafe_023_gallery_01.webp",
+        "cafe_023_gallery_02.webp",
+        "cafe_023_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/438547LS-ministry-of-roasters-%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%A3%E0%B8%A7%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%84%E0%B8%B1%E0%B9%88%E0%B8%A7-%E0%B8%9A%E0%B8%B2%E0%B8%87%E0%B8%88%E0%B8%B2%E0%B8%81-bang-chak?_st=cD03O2I9NDM4NTQ3O2FkPWZhbHNlO3Q9MTc4NzM4OTI0NDA5NTtyaT0xWDdiY0RzdVU3NHNlUFF3YjVGd0hoaGVGUEdoQ3E7aT0xWDcxNVhlVjRDdHU0SzQzemRsRXJ2WkdlVE5mNjg7d3JlZj1zcjs%3D",
+      "is_recommended": false
+    },
+    "cafe_024": {
+      "name_th": "วรินดา คอฟฟี่ โรสเตอร์",
+      "name_en": "Varinda Coffee Roaster",
+      "zone": "ThawiWatthana",
+      "zone_group_id": "zone_group_004",
+      "price_range": "$$",
+      "description": "ร้านจัดแต่งร้านบรรยากาศดีค่ะภายในร้านตกแต่งด้วยสีเขียวเข้ม ที่นั่งมี หลากหลาย ประเภทให้เลือกไม่ว่าจะมาเป็นคู่มาคนเดียวหรือว่ามาเป็นทีมงาน เมนูของทางร้านมีหลากหลายค่ะเครื่องดื่ม กาแฟ ชาชาเขียว อ่านต่อได้ที่ https://www.wongnai.com/restaurants/459993bf-varinda-coffee-roaster?_st=cD01O2I9NDU5OTkzO2FkPWZhbHNlO3Q9MTc4NzM4OTM5ODYxNTtyaT0xWDdiY0R0RG81NmZYcHpoZVRJUmdBZzBEWjZOM2Q7aT0xWDcxNVhlb00yZnZRT0hBOTVxUVg1bk5KckFDTko7d3JlZj1zcjs%3D&ref=ct",
+      "latitude": 13.751998,
+      "longitude": 100.40247,
+      "opening_days": "Everyday",
+      "opening_hours": "10:30 - 17:00",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://www.facebook.com/varinda.coffee , https://instagram.com/varinda.coffee.roaster",
+      "image_thumbnail": "cafe_024_thumb.webp",
+      "image_detail": "cafe_024_detail.webp",
+      "image_gallery": [
+        "cafe_024_gallery_01.webp",
+        "cafe_024_gallery_02.webp",
+        "cafe_024_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/459993bf-varinda-coffee-roaster?_st=cD01O2I9NDU5OTkzO2FkPWZhbHNlO3Q9MTc4NzM4OTM5ODYxNTtyaT0xWDdiY0R0RG81NmZYcHpoZVRJUmdBZzBEWjZOM2Q7aT0xWDcxNVhlb00yZnZRT0hBOTVxUVg1bk5KckFDTko7d3JlZj1zcjs%3D",
+      "is_recommended": false
+    },
+    "cafe_025": {
+      "name_th": "บรูวแลป",
+      "name_en": "Brewlab",
+      "zone": "Suan Luang",
+      "zone_group_id": "zone_group_003",
+      "price_range": "$$",
+      "description": "ร้านกาแฟในบ้านไม้สนทั้งหลัง เดินเข้าไปได้กลิ่นไม้เบาๆ ตลอดเวลา พอดีตอนไปลูกค้าเต็มร้าน เลยสั่งเป็น take away ดีกว่า รสชาติกาแฟ latte จัดว่าใช้ได้เลย ถ้าคิดว่าร้านไม่ได้ใช้เครื่องทำกาแฟบิ๊กบึ้มเหมือนร้านทั่วไป แต่เป็นการทำกาแฟ อ่านต่อได้ที่ https://www.wongnai.com/restaurants/345327qk-brewlab?_st=cD0wO2I9MzQ1MzI3O2FkPWZhbHNlO3Q9MTc4NzM5MDIxODI0MTtyaT0xWDdiY0R1c3NiMHRUUnBsb01QM0lVTlNSMGJiUGI7aT0xWDcxNVhnVE9IWDR5clFjVUZaSzJXUldhZHJyWkc7d3JlZj1zcjs%3D&ref=ct",
+      "latitude": 13.742727,
+      "longitude": 100.624442,
+      "opening_days": "Wed - Fri",
+      "opening_hours": "10:00 - 18:00",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://instagram.com/Brewlabcafebkk",
+      "image_thumbnail": "cafe_025_thumb.webp",
+      "image_detail": "cafe_025_detail.webp",
+      "image_gallery": [
+        "cafe_025_gallery_01.webp",
+        "cafe_025_gallery_02.webp",
+        "cafe_025_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/345327qk-brewlab?_st=cD0wO2I9MzQ1MzI3O2FkPWZhbHNlO3Q9MTc4NzM5MDIxODI0MTtyaT0xWDdiY0R1c3NiMHRUUnBsb01QM0lVTlNSMGJiUGI7aT0xWDcxNVhnVE9IWDR5clFjVUZaSzJXUldhZHJyWkc7d3JlZj1zcjs%3D",
+      "is_recommended": false
+    },
+    "cafe_026": {
+      "name_th": "อื่นๆ คาเฟ่",
+      "name_en": "Other café",
+      "zone": "Phayathai",
+      "zone_group_id": "zone_group_002",
+      "price_range": "$$",
+      "description": " เป็นคาเฟ่สไตล์ลอฟท์ปูนเปือยที่ถ่ายรูปออกมาได้สวยจึ้งสุดๆ ! 🖤 โทนสีภายในร้านจะเน้นเป็นโทนเทาทั้งหมด ตกแต่งด้วยลายเส้นของสายไฟด้านบนแบบอาร์ตๆ และโต๊ะกระจกแบบเก๋ๆ อ่านต่อได้ที่ https://www.wongnai.com/restaurants/507613UW-other-caf%C3%A9-rangnam?_st=cD0yO2I9NTA3NjEzO2FkPWZhbHNlO3Q9MTc4NzM5MDIxODI1NDtyaT0xWDdiY0R1c3FnZjNlaDlXV21WSUR6WWlJTUJxNUY7aT0xWDcxNVhnVE9IWDR5clFjVUZaSzJXUldhZHJyWkc7d3JlZj1zcjs%3D&ref=ct",
+      "latitude": 13.759664,
+      "longitude": 100.540566,
+      "opening_days": "Everyday",
+      "opening_hours": "08:00 - 18:00",
+      "facilities": [],
+      "social_url": "https://www.facebook.com/othercafe8 , https://instagram.com/other.cafe",
+      "image_thumbnail": "cafe_026_thumb.webp",
+      "image_detail": "cafe_026_detail.webp",
+      "image_gallery": [
+        "cafe_026_gallery_01.webp",
+        "cafe_026_gallery_02.webp",
+        "cafe_026_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/507613UW-other-caf%C3%A9-rangnam?_st=cD0yO2I9NTA3NjEzO2FkPWZhbHNlO3Q9MTc4NzM5MDIxODI1NDtyaT0xWDdiY0R1c3FnZjNlaDlXV21WSUR6WWlJTUJxNUY7aT0xWDcxNVhnVE9IWDR5clFjVUZaSzJXUldhZHJyWkc7d3JlZj1zcjs%3D",
+      "is_recommended": false
+    },
+    "cafe_027": {
+      "name_th": "เป็ดคุณคาเฟ่ริสต์",
+      "name_en": "Duck You Caferist",
+      "zone": "Ramkhamhaeng",
+      "zone_group_id": "zone_group_002",
+      "price_range": "$",
+      "description": "เมนูเค้กน่าทานมากๆ​ ได้มาชิมแล้วไม่ผิดหวังจริงๆ​ เค้กชิ้นใหญ่​ คุณภาพดี​ กาแฟหอมอร่อยมากๆ​ ที่ร้านมีเครื่องคั่วกาแฟเอง อ่านต่อได้ที่ https://www.wongnai.com/restaurants/151518Kx-duck-you-caferista?_st=cD05O2I9MTUxNTE4O2FkPWZhbHNlO3Q9MTc4NzM5MDA2MTQ5NTtyaT0xWDdiY0R1WkFyTjlKUERWelFpSTVUWmc0Qkh6NWs7aT0xWDcxNVhnOWxQM2Y4elhhcVVSbjdoakdrSDJINkY7d3JlZj1zcjs%3D&ref=ct",
+      "latitude": 13.771495,
+      "longitude": 100.664288,
+      "opening_days": "Everyday",
+      "opening_hours": "07:30 - 14:30",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://www.facebook.com/duckyoucaferista , https://instagram.com/duckyoucaferista",
+      "image_thumbnail": "cafe_027_thumb.webp",
+      "image_detail": "cafe_027_detail.webp",
+      "image_gallery": [
+        "cafe_027_gallery_01.webp",
+        "cafe_027_gallery_02.webp",
+        "cafe_027_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/151518Kx-duck-you-caferista?_st=cD05O2I9MTUxNTE4O2FkPWZhbHNlO3Q9MTc4NzM5MDA2MTQ5NTtyaT0xWDdiY0R1WkFyTjlKUERWelFpSTVUWmc0Qkh6NWs7aT0xWDcxNVhnOWxQM2Y4elhhcVVSbjdoakdrSDJINkY7d3JlZj1zcjs%3D",
+      "is_recommended": false
+    },
+    "cafe_028": {
+      "name_th": "กาแฟไคเซ็น",
+      "name_en": "Kaizen Coffee",
+      "zone": "Ekkamai",
+      "zone_group_id": "zone_group_003",
+      "price_range": "$$",
+      "description": "คาเฟ่เปิดให้บริการแต่เช้า จัดไปเลย breakfast จานใหญ่ อร่อย บรรยากาศก็ดีเลย มีที่จอดรถไม่ต้องวุ่นวายมากมายในยามเช้า จริงๆ อาหารก็เป็นแนว all day brunch อ่านต่อได้ที่ https://www.wongnai.com/restaurants/kaizencoffee?_st=cD01O2I9MzkyMjY2O2FkPWZhbHNlO3Q9MTc4NzM5MDIxODI1NDtyaT0xWDdiY0R1c3ZXVVhkWW9hczkwWmtMdmxWN0w1Zkg7aT0xWDcxNVhnVE9IWDR5clFjVUZaSzJXUldhZHJyWkc7d3JlZj1zcjs%3D&ref=ct",
+      "latitude": 13.739684,
+      "longitude": 100.589584,
+      "opening_days": "Everyday",
+      "opening_hours": "07:30 - 16:30",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://www.facebook.com/kaizencoffeeco , https://instagram.com/kaizencoffeeco",
+      "image_thumbnail": "cafe_028_thumb.webp",
+      "image_detail": "cafe_028_detail.webp",
+      "image_gallery": [
+        "cafe_028_gallery_01.webp",
+        "cafe_028_gallery_02.webp",
+        "cafe_028_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/kaizencoffee?_st=cD01O2I9MzkyMjY2O2FkPWZhbHNlO3Q9MTc4NzM5MDIxODI1NDtyaT0xWDdiY0R1c3ZXVVhkWW9hczkwWmtMdmxWN0w1Zkg7aT0xWDcxNVhnVE9IWDR5clFjVUZaSzJXUldhZHJyWkc7d3JlZj1zcjs%3D",
+      "is_recommended": false
+    },
+    "cafe_029": {
+      "name_th": "บุช คอฟฟี่",
+      "name_en": "Butch's Coffee",
+      "zone": "Vibhavadi",
+      "zone_group_id": "zone_group_002",
+      "price_range": "$",
+      "description": "คาเฟ่ที่หน้าร้านสุดเด่นด้วยอิฐน้ำตาลแดง ภายในร้านให้ฟีลสุดโฮมมี่ สบายๆ ตกแต่งสไตล์มินิมอลขาวคลีน อ่านต่อได้ที่ https://www.wongnai.com/restaurants/1000164eb-butch-s-coffee-%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%813-%E0%B8%A7%E0%B8%B4%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%94%E0%B8%B5%E0%B8%8B%E0%B8%AD%E0%B8%A25-%E0%B9%81%E0%B8%A2%E0%B8%811?_st=cD02O2I9MTAwMDE2NDthZD1mYWxzZTt0PTE3ODczOTExMzkyNzI7cmk9MVg3YmNEd2toajZGa3RYN1ZxZ2hCUU8yb1NWclJxO2k9MVg3MTVYaUxETE5EZmVMVjVUeExpSTYzVmx6cVV6O3dyZWY9c3I7&ref=ct",
+      "latitude": 13.798386,
+      "longitude": 100.56015,
+      "opening_days": "Everyday",
+      "opening_hours": "07:00 - 17:00",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "-",
+      "image_thumbnail": "cafe_029_thumb.webp",
+      "image_detail": "cafe_029_detail.webp",
+      "image_gallery": [
+        "cafe_029_gallery_01.webp",
+        "cafe_029_gallery_02.webp",
+        "cafe_029_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/1000164eb-butch-s-coffee-%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%A7%E0%B8%B1%E0%B8%87%E0%B9%80%E0%B8%94%E0%B9%87%E0%B8%813-%E0%B8%A7%E0%B8%B4%E0%B8%A0%E0%B8%B2%E0%B8%A7%E0%B8%94%E0%B8%B5%E0%B8%8B%E0%B8%AD%E0%B8%A25-%E0%B9%81%E0%B8%A2%E0%B8%811?_st=cD02O2I9MTAwMDE2NDthZD1mYWxzZTt0PTE3ODczOTExMzkyNzI7cmk9MVg3YmNEd2toajZGa3RYN1ZxZ2hCUU8yb1NWclJxO2k9MVg3MTVYaUxETE5EZmVMVjVUeExpSTYzVmx6cVV6O3dyZWY9c3I7",
+      "is_recommended": false
+    },
+    "cafe_030": {
+      "name_th": "นิป คาเฟ่",
+      "name_en": "Nip Cafe",
+      "zone": "Phahonyothin",
+      "zone_group_id": "zone_group_002",
+      "price_range": "$$",
+      "description": "เมล็ดกาแฟมีเบลนด์ให้เลือกเยอะมาก ถามบาริสต้า จะเอา เปรี้ยว ไม่เปรี้ยว ขม ไม่ขม มีเกือบจะหมดทุกแนว อ่านต่อได้ที่ https://www.wongnai.com/restaurants/nipcafe?_st=cD05O2I9MzE0MjkwO2FkPWZhbHNlO3Q9MTc4NzM5MTEzOTI3NTtyaT0xWDdiY0R3a2UwSldBZktrcXFFZmhrdkh1ZGdDNjc7aT0xWDcxNVhpTERMTkRmZUxWNVR4TGlJNjNWbHpxVXo7d3JlZj1zcjs%3D&ref=ct",
+      "latitude": 13.766229,
+      "longitude": 100.540478,
+      "opening_days": "Everyday",
+      "opening_hours": "08:00 - 14:30",
+      "facilities": [
+        "Wi-Fi",
+        "Parking"
+      ],
+      "social_url": "https://www.facebook.com/nipcoffee.bkk , https://instagram.com/nip__coffee",
+      "image_thumbnail": "cafe_030_thumb.webp",
+      "image_detail": "cafe_030_detail.webp",
+      "image_gallery": [
+        "cafe_030_gallery_01.webp",
+        "cafe_030_gallery_02.webp",
+        "cafe_030_gallery_03.webp"
+      ],
+      "source_url": "https://www.wongnai.com/restaurants/nipcafe?_st=cD05O2I9MzE0MjkwO2FkPWZhbHNlO3Q9MTc4NzM5MTEzOTI3NTtyaT0xWDdiY0R3a2UwSldBZktrcXFFZmhrdkh1ZGdDNjc7aT0xWDcxNVhpTERMTkRmZUxWNVR4TGlJNjNWbHpxVXo7d3JlZj1zcjs%3D",
+      "is_recommended": false
+    }
+  },
+  "favorites": {
+    "device_001": {
+      "cafe_002": true,
+      "cafe_010": true,
+      "cafe_022": true
+    }
+  }
+}
