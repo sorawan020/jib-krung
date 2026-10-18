@@ -109,3 +109,15 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+/* แก้สีข้อความในช่อง Input */
+input {
+  color: #333 !important;
+  -webkit-text-fill-color: #333 !important;
+  caret-color: #333 !important;
+}
+
+input::placeholder {
+  color: #888 !important;
+  opacity: 1 !important;
+}
