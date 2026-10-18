@@ -96,7 +96,7 @@ function CafeDetailContent({ cafeId }) {
 
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", margin: "16px 0 4px" }}>
             <div>
-              <h1 style={{ fontSize: 22, fontWeight: 500, margin: 0 }}>
+              <h1 style={{ fontSize: 22, fontWeight: 500, margin: 0 , color: "#333"}}>
                 {cafe.name_th}
                 {cafe.is_recommended && (
                   <span style={{ fontSize: 11, color: "var(--color-pine)", background: "var(--color-accent)", fontWeight: 700, padding: "2px 10px", borderRadius: 999, marginLeft: 8, verticalAlign: "middle" }}>
