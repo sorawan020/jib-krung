@@ -51,7 +51,7 @@ git init
 git add .
 git commit -m "Prepare Jib Krung web application"
 git branch -M main
-git remote add origin <URL-ของ-GitHub-Repository>
+git remote add origin <https://github.com/sorawan020/jib-krung>
 git push -u origin main
 ```
 ก่อน push ให้ตรวจสอบว่าไม่มี `.env`, Service Account key หรือข้อมูลส่วนตัว
